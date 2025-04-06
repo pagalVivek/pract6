@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title=""
+        android:icon="@drawable/favicon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/account"
+        android:title="account"
+        app:showAsAction="never"/>
+
+    <menu>
+        <item
+            android:id="@+id/myaccount"
+            android:title="myaccount"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/personalaccount"
+            android:title="personalaccount"
+            app:showAsAction="never"/>
+    </menu>
+
+
+
+    <item
+        android:id="@+id/service"
+        android:title="service"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="feedback"
+        app:showAsAction="never"/>
+
+
+
+</menu>
